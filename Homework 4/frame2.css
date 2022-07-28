@@ -1,0 +1,14 @@
+div {
+    background: 
+    url(img-frame/corner_t_l.gif) no-repeat top left,
+    url(img-frame/corner_t_r.gif) no-repeat top right,
+    url(img-frame/corner_b_l.gif) no-repeat bottom left,
+    url(img-frame/corner_b_r.gif) no-repeat bottom right,
+    url(img-frame/left-right.gif) repeat-y left,
+    url(img-frame/left-right.gif) repeat-y right,
+    url(img-frame/top-bottom.gif) repeat-x top,
+    url(img-frame/top-bottom.gif) repeat-x bottom;
+    padding: 40.5px;
+    font-size: 48px;
+    text-align: center;
+}
