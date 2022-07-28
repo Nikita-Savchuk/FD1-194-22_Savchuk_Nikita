@@ -1,10 +1,10 @@
 .left{
-    background-image: url(img-frame);
+    background-image: url(img/);
     background-position: left;
     background-repeat: repeat-y;
 }
 .right{
-    background-image: url(img-frame/left-right.gif);
+    background-image: url(img/left-right.gif);
     background-position: right;
     background-repeat: repeat-y;
 }
