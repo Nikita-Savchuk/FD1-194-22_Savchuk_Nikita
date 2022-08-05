@@ -1,0 +1,14 @@
+body{
+	margin: 10;
+	padding: 0;
+	background-color: #0e6cc4;
+	overflow-x:hidden;
+	overflow-y:hidden;
+  font-family: 'Caveat', cursive;
+  font-family: 'Marck Script', cursive;
+  font-family: 'Ubuntu', sans-serif;
+}
+a{
+ color: rgba(117, 9, 9, 0.585);
+
+}
