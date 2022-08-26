@@ -1,0 +1,63 @@
+div { 
+	
+    padding: 10px;
+    margin-top: 0px;
+}
+ul>li{
+   display: inline-block;
+}
+ul>li a{
+   padding: 15px 15px;
+   color: green;
+}
+a:hover {
+ color:red;
+}
+ul{
+    list-style-type:none;
+
+}
+.first ul>li a:before{
+    content: '|';     
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 30px;
+   }
+   .first ul > li:first-child a:before{
+    content: '';
+   }
+.second ul>li a:after{
+        content: '|';     
+        color: red;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 30px;
+      }
+.sevond ul > li:last-child a:after{
+        content: '';
+      }
+.third ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.third li{
+	display: block;
+}
+.third li{
+	color: green;
+	border-right: 1px solid red;
+	padding-right: 30px;
+    padding-left: 30px;
+}
+.third li:last-child{
+	border: 0px;
+}
+.third ul>li a{
+	padding: 0px 0px;
+	color: green;
+}
+.third a:hover {
+  color:red;
+}
