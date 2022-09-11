@@ -1,0 +1,69 @@
+.header,.footer {
+    font-weight: bold;
+    text-align: center;
+    background-color: #add8e6;
+    color: #0000ff;
+    padding: 13px;
+    font-size: 25px;
+}
+.menu {
+    width: 167px;
+    float: left;
+    font-size: 18px;
+  }
+.content_wrapper {
+    
+        
+    margin-left: 200px;
+  }
+.clear {
+    clear: both;
+  }
+  
+.team{
+    float: left;
+    margin-right: 25px;
+  }
+.container{
+    background-image: url(img/ball.png);
+        background-repeat:repeat-y;
+        background-position: right;
+      }
+.background{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat repeat;
+    background-position: -42px 0;
+  }
+.type{
+    font-weight: bolder;
+    margin-top: 27px;
+    margin-left: 20px;
+  }
+.football{
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 21px;
+  }
+p {
+    font-size: 18px;
+    padding: 10px;
+  }
+  @media all and (max-width: 1228px){
+    .container{
+        background-color: rgb(40, 205, 73);
+      }
+  }
+  @media all and (max-width: 536px){
+    .container{
+        background-color: rgb(112, 148, 199);
+      }
+         .menu{
+        background-color: rgb(219, 46, 46);
+      }
+      .background{
+        background-image: url(img/background-2.png);
+        background-repeat: no-repeat repeat;
+        background-position: -42px 0;}
+  }
+ 
