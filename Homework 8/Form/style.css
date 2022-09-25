@@ -1,0 +1,38 @@
+.container{
+    padding: 20px;
+  }
+  .wrapper{
+    margin-left: 200px;
+  }
+  .text{ 
+    float: left;
+  }
+  textarea{
+    width:100%;
+  }
+  .wrapper.one input{
+    width:100%;
+  }
+  .adapt{
+    display: inline;
+  }
+
+
+  @media all and (max-width: 1200px) {
+   
+    .text{
+      float: none;
+    }
+    .wrapper{
+    margin-left: 0px;
+    }
+    .text.agree{ 
+    float: left;
+  }
+  .adapt{
+    display: block;
+  }
+  
+
+  }
+  

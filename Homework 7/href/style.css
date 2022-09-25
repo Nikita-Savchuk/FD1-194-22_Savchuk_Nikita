@@ -1,0 +1,40 @@
+.name{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .birth{
+    color: green;
+  }
+  .date{
+    color: red;
+    font-weight: bold;
+  }
+  .text{
+    font-style: italic;
+    color: blue;
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  .link{
+    background-image: url(extref.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    padding-left: 15px;
+  }
+  @media print {
+    a[href^="http"]::after{
+      content: " на   " attr(href)" )";
+    }
+
+    a[href^="http"]::before{
+      content: "( ссылка ";
+    }
+
+    .link {
+      background-image: none;
+      padding-left: 0px;
+    }
+  }
+ 
