@@ -19,18 +19,115 @@ body{
 .background{
     position: absolute;
     z-index: -1;
-    width: 1620px;
-    height: 938px;
-    left: 280px;
+    width: 1070px;
+    height: 942px;
+    right: 0px;
     top: 0px;
     background-color:#FFEA2F;
 }
-.background_img{
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
-    width: 786px;
-    height: 733px;
+.box{
+    position: relative;
+    top: 245px;
+    left: 125px;
+    width: 494px;
+    height: 447px;  
+}
+.box div{
+    position: relative;
+    height: 137px;
+    width: 137px;
+    border-radius: 0px;
+    background-color: #E8D935;
+    box-shadow: 23px -23px 2px #F2E33A;
+    display: flex;
+    justify-content: center;
+    
+}
+.box img{
+    margin-top: 25px;
+    width: 70px;
+    height: 81px;
+}
+.top-left{
+    top: 0px;
+    left: 0px;
+}
+.top-right{
+    right: -381px;
+    top: -127px;
+}
+.bottom-right{
+    bottom: 0px;
+    right: 0px;
+}
+.bottom-left{
+    right: -381px;
+    top: 127px;
+}
+.signe{
+    position: relative;
+    top: -55px;
+    left: 125px;
+    width: 494px;
+    height: 447px;
+}
+.signe div{
+    position: relative;
+    height: 137px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-left: 73px;
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 55px;
+}
+p{
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
+    right: 119px;
+    bottom: -54px;
+    text-align: center;  
+}
+.mini_text_1{
+    top: -9px;
+    left: -163px;
+
+}.mini_text_2{
+    right: -220px;
+    top: -127px;
+
+}.mini_text_3{
+    top: 134px;
+    right: 82px;
+
+}.mini_text_4{
+    right: -207px;
+    top: -13px;
+
+}
+.p_1{
+    right: 118px;
+    top: 53px;
+    
+}.p_2{
+    right: 140px;
+    top: 48px;
+    
+}.p_3{
+    right: 138px;
+    top: 51px;
+    
+}.p_4{
+    right: 77px;
+    top: 50px;
+     
 }
 /*---------------------Header-------------------------------*/
 header {
@@ -92,8 +189,8 @@ section{
     height: 255px;
     width: 1077px;
     position: relative;
-    left: 86px;
-    top: 206px;
+    left: 187px;
+    top: 161px;
     font-family:'Zona Pro';
     font-weight: 800;
     font-size: 72px;
@@ -102,36 +199,52 @@ section{
 }
 .text{
     position: relative;
-    left: 403px;
-    top: 338px;
-    width: 459px;
-    height: 90px;
+    height: 390px;
+    width: 606px;
+    left: 187px;
+    top: 50px;
     font-family: 'Akrobat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
-
 }
 .links_group{
     position: relative;
     width: 32px;
     height: 282px;
     left: 30px;
-    bottom: -450px;
+    bottom: -23px;
+    
 }
-.button_more{
+.mini_button_1{
     position: relative;
-    width: 120px;
-    height: 120px;
-    left: 215px;
-    top: -60px;
+    height: 16px;
+    width: 16px;
     background-color: #CE0002;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-    color: white;
+    right: -999px;
+    bottom: 389px;
+
+}
+.mini_button_2{
+    position: relative;
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    right: -999px;
+    bottom: 382px;
+}
+.team{
+    position: relative;
+    right: -886px;
+    bottom: 401px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
 }
 /*---------------------Footer-------------------------------*/
 footer{
