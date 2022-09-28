@@ -150,7 +150,7 @@ header div{
     position: relative;
     display: flex;
     justify-content: center;
-    left: 250px;
+    left: 400px;
     font-family: 'Akrobat';
     font-style: normal;
     font-weight: 600;
@@ -236,35 +236,6 @@ section{
     left: 30px;
     bottom: -23px;
     
-}
-.mini_button_1{
-    position: relative;
-    height: 16px;
-    width: 16px;
-    background-color: #CE0002;
-    right: -999px;
-    bottom: 389px;
-
-}
-.mini_button_2{
-    position: relative;
-    height: 16px;
-    width: 16px;
-    background-color: black;
-    right: -999px;
-    bottom: 382px;
-}
-.team{
-    position: relative;
-    right: -886px;
-    bottom: 401px;
-    font-family: 'Proxima Nova';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-
 }
 /*---------------------Footer-------------------------------*/
 footer{

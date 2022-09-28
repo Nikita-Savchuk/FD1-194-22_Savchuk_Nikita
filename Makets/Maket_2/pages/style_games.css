@@ -47,18 +47,10 @@ body{
     right: -1019px;
     bottom: -605px;
 }
-.mini_button_3{
-    position: relative;
-    height: 16px;
-    width: 16px;
-    background-color: #CE0002;
-    right: -1019px;
-    bottom: -516px;
-}
 .team{
     position: relative;
     right: -856px;
-    bottom: -532px;
+    bottom: -548px;
     width: 200px;
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -137,11 +129,11 @@ header div{
     left: 86px;
     top: 23px;
 }
-.nav>a{
+.nav a{
     position: relative;
     display: flex;
     justify-content: center;
-    left: 250px;
+    left: 400px;
     font-family: 'Akrobat';
     font-style: normal;
     font-weight: 600;
