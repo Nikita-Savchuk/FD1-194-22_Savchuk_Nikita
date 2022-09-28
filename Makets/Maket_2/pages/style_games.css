@@ -19,20 +19,108 @@ body{
 /*---------------------Background-------------------------------*/
 .background{
     position: absolute;
-    z-index: -1;
-    width: 1620px;
-    height: 938px;
-    left: 280px;
+    width: 1070px;
+    height: 942px;
+    right: 0px;
     top: 0px;
-    background-color:#FFEA2F;
+    background-color:#D3D1E9;
+    display: flex;
+    justify-content: center;
+    align-content: end;
 }
-.background_img{
+.mini_button_1{
+    position: relative;
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    right: -1019px;
+    bottom: -584px;
+}
+.mini_button_2{
+    position: relative;
+    height: 16px;
+    width: 16px;
+    background-color: #CE0002;
+    right: -1019px;
+    bottom: -605px;
+}
+.mini_button_3{
+    position: relative;
+    height: 16px;
+    width: 16px;
+    background-color: #CE0002;
+    right: -1019px;
+    bottom: -516px;
+}
+.team{
+    position: relative;
+    right: -856px;
+    bottom: -532px;
+    width: 200px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
+.box{
+    width: 83px;
+    height: 169px;
+    position: relative;
+   
+}
+:root {
+    --pixel-size: 25;
+ }
+ .Character {
+    width: calc(32px * var(--pixel-size));
+    height: calc(32px * var(--pixel-size));
+    overflow: hidden;
+    position: relative;
+    margin: 4em auto;
+    margin-right: 371px;
+    margin-top: 60px;
+ }
+ 
+ .Character_spritesheet {
+    animation: moveSpritesheet 1s steps(4) infinite;
+    width: calc(128px * var(--pixel-size));
     position: absolute;
-    bottom: 40px;
-    right: 40px;
-    width: 786px;
-    height: 733px;
-}
+    
+ }
+ .Character_shadow {
+    position: absolute;
+    width: calc(32px * var(--pixel-size));
+    height: calc(32px * var(--pixel-size));
+    ba
+ }
+ 
+ .pixelart {
+    image-rendering: pixelated;
+ }
+ 
+ .face-right {
+    top: calc(-32px * var(--pixel-size));
+ }
+ .face-up {
+    top: calc(-64px * var(--pixel-size));
+ }
+ .face-left {
+    top: calc(-96px * var(--pixel-size));
+ }
+ 
+ 
+ @keyframes moveSpritesheet {
+    from {
+       transform: translate3d(0px,0,0)
+    }
+    to {
+       transform: translate3d(-100%,0,0)
+    }
+ }
+ 
 /*---------------------Header-------------------------------*/
 header {
     position: relative;
@@ -85,6 +173,24 @@ li{
     text-transform: uppercase;
     color: white;
 }
+.button_2{
+    position: relative;
+    right: -195px;
+    height: 94px;
+    width: 192px;
+    background-color: #CE0002;
+    font-family: 'Akrobat';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-align: start;
+}
 /*---------------------Content-------------------------------*/
 section{
     flex: 1 1 auto;
@@ -93,8 +199,8 @@ section{
     height: 255px;
     width: 1077px;
     position: relative;
-    left: 86px;
-    top: 206px;
+    left: 187px;
+    top: 161px;
     font-family:'Zona Pro';
     font-weight: 800;
     font-size: 72px;
@@ -103,42 +209,29 @@ section{
 }
 .text{
     position: relative;
-    left: 403px;
-    top: 338px;
-    width: 459px;
-    height: 90px;
+    height: 390px;
+    width: 606px;
+    left: 187px;
+    top: 50px;
     font-family: 'Akrobat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
-
 }
 .links_group{
     position: relative;
     width: 32px;
     height: 282px;
     left: 30px;
-    bottom: -450px;
-}
-.button_more{
-    position: relative;
-    width: 120px;
-    height: 120px;
-    left: 215px;
-    top: -60px;
-    background-color: #CE0002;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-    color: white;
+    bottom: -23px;
+    
 }
 /*---------------------Footer-------------------------------*/
 footer{
     position: relative;
     z-index: 0;
-    bottom: -300px;
+    bottom: -372px;
     height: 54px;
     background-color:#EFEFEF;
     display: flex;
