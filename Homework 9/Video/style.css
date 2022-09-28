@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 370px;
+    height: 627px;
+    overflow: auto;
+}
+p:first-child{
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+iframe{
+    width: 350px;
+    height: 315px ;
+}

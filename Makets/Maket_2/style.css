@@ -5,6 +5,9 @@
 	font-size: 100%;
     box-sizing: border-box;
 }
+html{
+    zoom: 100%;
+}
 body{
     height: 100%;
     overflow-x: hidden;
@@ -85,6 +88,22 @@ li{
     text-transform: uppercase;
     color: white;
 }
+.button:hover{
+    background-color:#FE0002;
+}
+.button:active{
+    background-color:#A60002 ;
+}
+.button_eng{
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 /*---------------------Content-------------------------------*/
 section{
     flex: 1 1 auto;
@@ -133,6 +152,12 @@ section{
     align-items: center;
     font-size: 22px;
     color: white;
+}
+.button_more:hover{
+    background-color:#FE0002;
+}
+.button_more:active{
+    background-color:#A60002 ;
 }
 /*---------------------Footer-------------------------------*/
 footer{
