@@ -135,7 +135,7 @@ section{
     width: 32px;
     height: 282px;
     left: 30px;
-    bottom: -23px;
+    bottom: 2400px;
 }
 .boxes{
     display: flex;
@@ -170,6 +170,7 @@ section{
     position: relative;
     bottom: -60px;
 }
+
 /*---------------------Footer-------------------------------*/
 footer{
     position: relative;

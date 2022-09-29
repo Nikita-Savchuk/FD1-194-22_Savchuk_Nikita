@@ -22,71 +22,41 @@ body{
 /*---------------------Background-------------------------------*/
 .background{
     position: absolute;
+    z-index: -1;
     width: 1070px;
     height: 942px;
     right: 0px;
     top: 0px;
-    background-color:#D3D1E9;
-    display: flex;
-    justify-content: center;
-    align-content: end;
 }
-.box{
-    width: 83px;
-    height: 169px;
+.mini_button_1{
     position: relative;
-   
+    height: 16px;
+    width: 16px;
+    background-color: #CE0002;
+    right: -999px;
+    bottom: 389px;
+
 }
-:root {
-    --pixel-size: 25;
- }
- .Character {
-    width: calc(32px * var(--pixel-size));
-    height: calc(32px * var(--pixel-size));
-    overflow: hidden;
+.mini_button_2{
     position: relative;
-    margin: 4em auto;
-    margin-right: 371px;
-    margin-top: 60px;
- }
- 
- .Character_spritesheet {
-    animation: moveSpritesheet 1s steps(4) infinite;
-    width: calc(128px * var(--pixel-size));
-    position: absolute;
-    
- }
- .Character_shadow {
-    position: absolute;
-    width: calc(32px * var(--pixel-size));
-    height: calc(32px * var(--pixel-size));
-    ba
- }
- 
- .pixelart {
-    image-rendering: pixelated;
- }
- 
- .face-right {
-    top: calc(-32px * var(--pixel-size));
- }
- .face-up {
-    top: calc(-64px * var(--pixel-size));
- }
- .face-left {
-    top: calc(-96px * var(--pixel-size));
- }
- 
- 
- @keyframes moveSpritesheet {
-    from {
-       transform: translate3d(0px,0,0)
-    }
-    to {
-       transform: translate3d(-100%,0,0)
-    }
- }
- 
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    right: -999px;
+    bottom: 382px;
+}
+.team{
+    position: relative;
+    right: -886px;
+    bottom: 401px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
 /*---------------------Header-------------------------------*/
 header {
     position: relative;
@@ -155,74 +125,67 @@ li{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.button_2{
-    position: relative;
-    right: -195px;
-    height: 94px;
-    width: 192px;
-    background-color: #CE0002;
-    font-family: 'Akrobat';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    text-align: start;
-}
-.button_2 a{
-    color: white;
-}
-.button_2:hover{
-    background-color:#FE0002;
-}
-.button_2:active{
-    background-color:#A60002 ;
-}
 /*---------------------Content-------------------------------*/
 section{
-    flex: 1 1 auto;
-}
-.big_text{
-    height: 255px;
-    width: 1077px;
     position: relative;
-    left: 187px;
-    top: 161px;
-    font-family:'Zona Pro';
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 85px;
-    text-transform: uppercase;
-}
-.text{
-    position: relative;
-    height: 390px;
-    width: 606px;
-    left: 187px;
-    top: 50px;
-    font-family: 'Akrobat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: stretch;
+
 }
 .links_group{
     position: relative;
     width: 32px;
     height: 282px;
     left: 30px;
-    bottom: -23px;
-    
+    bottom: 2400px;
+}
+.box{
+    height: 625px;
+    margin-top: 131px;
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.left_box{
+    height: 286px;
+    width: 609px;
+}
+.right_box{
+    height: 625px;
+    width: 1070px;
+
+}
+.map{
+    width: 100%;
+    height: 100%;
+}
+.name_2{
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 85px;
+    text-transform: uppercase;
+}
+.text_2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 10000;
+    font-size: 26px;
+    line-height: 150%;
 }
 /*---------------------Footer-------------------------------*/
 footer{
     position: relative;
     z-index: 0;
-    bottom: -372px;
+    bottom: -486px;
     height: 54px;
     background-color:#EFEFEF;
     display: flex;
