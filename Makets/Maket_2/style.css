@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 html{
-    zoom: 100%;
+    
 }
 body{
     height: 100%;
@@ -181,7 +181,7 @@ footer{
 .nav_footer_2{
     display: flex;
     justify-content: space-between;
-    width: 686px;
+    width: 453px;
 
 }
 .links{
