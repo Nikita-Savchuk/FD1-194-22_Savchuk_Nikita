@@ -19,6 +19,49 @@ body{
     display: flex;
     flex-direction: column;
 }
+.btn{
+    background-color: #CE0002;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color:#FE0002 ;
+    margin-top: 20px;
+}
+.btn.btn-primary:hover{
+    background-color:#FE0002 ;
+}
+/*---------------------Modal-------------------------------*/
+.modal-body{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+
+}
+.mini_img img{
+    width: 300px;
+    margin-top: 20px;
+}
+.modal_text{
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    
+}
+h1{
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 65px;
+    text-transform: uppercase;
+
+}
+
 /*---------------------Background-------------------------------*/
 .background{
     position: absolute;

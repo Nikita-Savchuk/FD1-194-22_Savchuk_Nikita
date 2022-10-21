@@ -146,17 +146,29 @@ section{
     height: 120px;
     left: 215px;
     top: -60px;
+    display: flex;
+    align-items: center;
+}
+.btn.btn-danger{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    left: 0px;
+    top: 0;
     background-color: #CE0002;
     text-align: center;
     display: flex;
     align-items: center;
     font-size: 22px;
     color: white;
+    font-size: 22px;
+    border-radius:0;
+
 }
-.button_more:hover{
+.btn.btn-danger:hover{
     background-color:#FE0002;
 }
-.button_more:active{
+.btn.btn-danger:active{
     background-color:#A60002 ;
 }
 /*---------------------Footer-------------------------------*/
