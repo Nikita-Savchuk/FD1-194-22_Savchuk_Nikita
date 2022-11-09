@@ -5,9 +5,6 @@
 	font-size: 100%;
     box-sizing: border-box;
 }
-html{
-    zoom: 100%;
-}
 body{
     height: 100%;
     overflow-x: hidden;
@@ -16,8 +13,6 @@ body{
     position: relative;
     min-height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 /*---------------------Background-------------------------------*/
 .background{
@@ -74,7 +69,7 @@ header div{
     position: relative;
     display: flex;
     justify-content: center;
-    left: 400px;
+    left: 200px;
     font-family: 'Akrobat';
     font-style: normal;
     font-weight: 600;
@@ -126,22 +121,12 @@ li{
     color: #FFFFFF;
 }
 /*---------------------Content-------------------------------*/
-section{
-    position: relative;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: stretch;
-	align-content: stretch;
-
-}
 .links_group{
     position: relative;
     width: 32px;
     height: 282px;
     left: 30px;
-    bottom: 2400px;
+    bottom: 0px;
 }
 .box{
     height: 625px;
@@ -155,11 +140,11 @@ section{
 }
 .left_box{
     height: 286px;
-    width: 609px;
+    width: 286px;
 }
 .right_box{
-    height: 625px;
-    width: 1070px;
+    height: 286px;
+    width: 586px;
 
 }
 .map{
@@ -183,16 +168,16 @@ section{
 }
 /*---------------------Footer-------------------------------*/
 footer{
+    width: 100%;
     position: relative;
-    z-index: 0;
-    bottom: -486px;
+    bottom: -270px;
     height: 54px;
     background-color:#EFEFEF;
     display: flex;
     justify-content: space-around;
 }
 .name{
-    margin-left: -131px;
+    margin-left: -100px;
     display: flex;
     align-items:center;
 }
@@ -207,7 +192,7 @@ footer{
 
 }
 .links{
-    margin-right: -170px;
+    margin-right: -100px;
     display: flex;
     align-items: center;
 }
@@ -220,3 +205,4 @@ a{
     font-size: 16px;
     line-height: 20px;
 }
+
